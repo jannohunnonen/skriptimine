@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+#tervitusskript
+#
+echo -n "tere, " # väljastab tere
+echo -n "`whoami`" # väljastab kasutajanime
+echo "!" # väljastab hüüjumärgi
+#
+# skripti lõpp
