@@ -1,0 +1,7 @@
+#!/bin/bash
+# arvamus aine kohta
+echo -n "janno_hunnonen, "
+echo -n "IS19, "
+echo "aine on huvitav ja edasijõudmine on sujuv. "
+#
+#skripti lõpp
