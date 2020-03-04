@@ -1,0 +1,13 @@
+#!/bin/bash
+#
+#sorteeritud logid
+#
+#skripti algus
+#
+echo
+#järgmised käsud sisestatud ühe reana
+find /var/ -name "*.log" -a -type f 2> /dev/null -exec wc -l {} \; | sort -g -r | cut -f2 -d" "
+#ühe reana sisestatud käskude lõpp
+echo
+#
+#skripti lõpp
